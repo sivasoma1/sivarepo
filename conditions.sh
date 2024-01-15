@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###conditions
-i=$1
+i=$0
 if [i == 0]
 then
     echo "yum install git"
