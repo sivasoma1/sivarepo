@@ -12,6 +12,7 @@ yum install sql -y
 if [ $? -ne 0 ]
 then 
     echo "your installation got error"
+    exit 1
 else
     echo "installing"
 fi
