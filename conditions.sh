@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ###conditions
-i=$0
-if [ $i == 0]
+num=$0
+if [ $num -gt 10]
 then
-    echo "yum install git"
+    echo "$num is grether than 10"
 else
-    echo "pls get root access" 
+    echo "$num is less than 10" 
 fi
