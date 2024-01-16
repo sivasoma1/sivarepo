@@ -7,11 +7,11 @@
 fi 
 
 yum install git -y
-yum install sql -y
+yum install mysql -y
 
 if [ $? -ne 0 ]
 then 
-    echo "your installation got error"
+    echo "Error::your installation got error"
     exit 1
 else
     echo "installing"
