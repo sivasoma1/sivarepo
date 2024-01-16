@@ -7,6 +7,7 @@
 fi 
 
 yum install git -y
+yum install sql -y
 
 if [ $? -ne 0 ]
 then 
