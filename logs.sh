@@ -1,5 +1,6 @@
 #!/bin/bash
 USERID=$(id -u)
+
 log_dir=/home/centos/shellscript_logs
 name=$0
 log_file=$logdir/$name.log
