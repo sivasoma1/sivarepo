@@ -29,7 +29,7 @@ do
     yum install $i &>>$log_file
     if [ $? -ne 0 ]
     then 
-        echo -e "$1 is not installed,$G now installing wait...."
+        echo -e "$i is not installed,$G now installing wait...."
         yum install $i -y &>>$log_file
         validate $? "$i"
     else
