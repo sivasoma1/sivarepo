@@ -17,3 +17,4 @@ do
     echo "Deleting $file" &>>$LOGFILE
     rm -rf $file
 done 
+
