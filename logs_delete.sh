@@ -14,7 +14,7 @@ echo "script started executing at $DATE" &>>$LOGFILE
 
 for file in FILES_TO_DELETE
 do
-    echo "Deleting $file" &>>$LOGFILE
-    rm -rf $file
+    echo "Deleting $FILES_TO_DELETE" &>>$LOGFILE
+    rm -rf $FILES_TO_DELETE
 done 
 
