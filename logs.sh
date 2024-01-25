@@ -31,7 +31,7 @@ do
     if [ $? -ne 0 ]
     then 
         echo -e "$i is not installed,$G now installing wait...."
-        yum install $i -y &>>$log_file
+        yum install $i -y &>> $log_file
         validate $? "$i"
     else
         echo -e "$Y $i is already installed $N"
